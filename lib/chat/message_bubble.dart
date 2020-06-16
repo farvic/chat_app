@@ -80,6 +80,7 @@ class MessageBubble extends StatelessWidget {
           ),
         ),
       ],
+      // Allows the image avatar to overflow without being clipped
       overflow: Overflow.visible,
     );
   }

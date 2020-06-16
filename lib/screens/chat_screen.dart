@@ -27,6 +27,8 @@ class _ChatScreenState extends State<ChatScreen> {
       return;
     });
     fbm.subscribeToTopic('chat');
+    // fbm.getToken(); Stores a token and set it to a database so that you can send a message
+    // to specific devices and receive notifications
   }
 
   @override
